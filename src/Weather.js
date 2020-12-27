@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import "./Weather.css";
 
-export default function Weather() {
+function Weather() {
   return (
     <div className="container">
       <div className="wrapper">
@@ -76,15 +76,6 @@ export default function Weather() {
           <div className="row weather-forecast" id="forecast"></div>
         </div>
       </div>
-      <small>
-        <a
-          href="https://github.com/AHernandez810/Weather-App-Project"
-          target="_blank"
-        >
-          Open-Source
-        </a>
-        by Ashley Hernandez
-      </small>
       <script src="SRC/index.js"></script>
     </div>
   );
@@ -93,7 +84,7 @@ export default function Weather() {
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <Weather />
+    <WeatherApp />
   </React.StrictMode>,
   rootElement
 );
