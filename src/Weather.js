@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+
 import "./Weather.css";
 
-function Weather() {
+export default function Weather() {
   return (
     <div className="container">
       <div className="wrapper">
@@ -30,7 +31,9 @@ function Weather() {
           </form>
 
           <div className="main-view">
-            <h2 id="location"></h2>
+            <h2>
+              <span id="location"></span>
+              </h2>
             <ul>
               <li>
                 <span id="date">Thursday 11:00</span>
@@ -49,13 +52,7 @@ function Weather() {
                   <div className="float-left">
                     <strong id="temperature"></strong>
                     <span className="units">
-                      <a href="#" id="celsius-link">
-                        °C
-                      </a>
-                      |
-                      <a href="#" id="fahrenheit-link">
-                        °F
-                      </a>
+                        °C | °F
                     </span>
                   </div>
                 </div>
@@ -84,7 +81,7 @@ function Weather() {
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <WeatherApp />
+    <Weather />
   </React.StrictMode>,
   rootElement
 );
