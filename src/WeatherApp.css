@@ -1,0 +1,101 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 100px;
+  line-height: 28px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  text-transform: capitalize;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-project {
+  padding: 20px;
+  border: 2px solid #f6f4e6;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.main-view {
+  margin-bottom: 20px;
+}
+
+.weather-temp img {
+  margin-right: 5px;
+  height: 65px;
+  width: 65px;
+}
+.weather-temp strong {
+  color: #000000;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.weather-temp .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temp .active {
+  color: #000000;
+  cursor: default;
+}
+
+.weather-temp .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 10px;
+}
+
+.weather-forecast h3 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 8px;
+  font-style: bold;
+}
+
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 46px;
+  width: 46px;
+}
+
+.weather-forecast-temp {
+  text-align: center;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+}
