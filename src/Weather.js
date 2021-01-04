@@ -74,6 +74,12 @@ export default function Weather() {
         </div>
       </div>
       <script src="SRC/index.js"></script>
+      <footer>
+        <a href="https://github.com/AHernandez810/react-weather-app" target="_blank">
+        Open-Source{" "}
+        </a>
+         by Ashley Hernandez
+      </footer>
     </div>
   );
 }
